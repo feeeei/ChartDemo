@@ -1,0 +1,24 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5065c2"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    tools:context="com.braceletdemo.activity.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/view_gesture_sleep" />
+
+        <include layout="@layout/view_effect_sleep" />
+
+        <include layout="@layout/view_effect_pulse" />
+
+        <include layout="@layout/view_gesture_pulse" />
+    </LinearLayout>
+
+</ScrollView>
